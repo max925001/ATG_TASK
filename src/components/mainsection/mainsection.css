@@ -1,0 +1,152 @@
+.main{
+
+    width: 100%;
+   
+   overflow: hidden;
+}
+main img{
+    width: 100%;
+    height: 740px;
+    
+ opacity: 2;
+}
+.computer{
+    position: absolute;
+    width: 378px;
+    height: 47px;
+   color: rgba(255, 255, 255, 1);
+    top: 358px;
+    left: 200px;
+}
+.computer h3{
+    font-size: 26px;
+    line-height: 46.8px;
+}
+.all_post{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+    width: 100%;
+    height: 72px;
+ 
+}
+.post{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 358px;
+    height: 21px;
+   
+    margin-left: 200px;
+}
+.post h4{
+    color: rgba(138, 138, 138, 1);
+    font-weight: 300;
+}
+
+.group{
+
+  display: flex;
+  justify-content: space-between;
+  margin-right: 200px;
+    width: 300px;
+    height: 40px;
+}
+.write_post{
+    width: 133px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #000;
+   
+}
+.write_post button{
+    width: 133px;
+    height: 36px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.friend_logo{
+    width: 20px;
+    height: 20px;
+   
+}
+.join_group{
+    width: 136px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #00F;
+}
+.join_group button{
+    width: 136px;
+    height: 36px;
+    color: rgba(255, 255, 255, 1);;
+    border: none;
+    border-radius: 5px;
+    background-color: #00F;
+}
+
+.line{
+    width:1050px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid rgba(224, 224, 224, 1);
+
+}
+.hide_post{
+    display: none;
+}
+.filter_button{
+    display: none;
+}
+
+@media screen and (max-width: 1060px){
+    .column2{
+        display: none;
+    }
+    .write_post{
+        display: none;
+    }
+    .join_group{
+        display: none;
+    }
+    .filter_button{
+        display: block;
+    }
+    .hide_post{
+        display: block;
+    }
+    .all_post-heading{
+        display: none;
+    }
+    .article{
+        display: none;
+    }
+    .Event{
+        display: none;
+    }
+    .education{
+        display: none;
+    }
+    .filter_button{
+        width: 136px;
+        height: 36px;
+        border-radius: 5px;
+        border: 1px solid #000;
+        background-color: #00F;
+    }
+    .filter_button button{
+        width: 136px;
+        height: 36px;
+        color: rgba(255, 255, 255, 1);;
+        border: none;
+        border-radius: 5px;
+        background-color: #00F;
+    }
+    .column1{
+      margin-left: 0px;
+        width: 100%;
+    }
+}

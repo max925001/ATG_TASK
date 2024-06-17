@@ -1,0 +1,154 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    grid-template-rows: 1fr;              /* Create one row */
+    width: 100%;                         /* Container width */
+    height: 1751px;                       /* Container height */
+    
+    gap: 10px;   
+            margin-top: 40px;
+}
+
+.column1 {
+   margin-left: 200px;
+     /* Optional: for visual reference */
+    display: grid;
+    grid-template-columns: 1fr; /* One column */
+    grid-template-rows: repeat(3, 492px) 269px; /* Three rows of 492px height and one row of 269px height */
+    gap: 10px;
+    
+}
+
+.column2 {
+
+
+    margin-right: 200px;
+   
+}
+.row1{
+    border: 1px solid rgba(138, 138, 138, 1) ;
+}    
+.row1 img{
+    width: 100%;
+    height: 220px;
+   
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    
+}
+.dots{
+    margin-right: 8px;
+}
+
+.user_details{
+    width: 1fr;
+    height: 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+padding: 5px;
+
+
+}
+
+.user{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 60px;
+}
+.share{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 145px;
+    height: 60px;
+}
+.share button{
+width: 42px;
+height: 36px;
+padding: 5px;
+border-radius: 10px;
+font-size: larger;
+}
+
+.user img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.date_location{
+    width: 358px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+}.column2{
+    padding: 50px;
+}
+.location-write{
+    display: flex;
+   
+    
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+}
+.location-write .location input{
+    border: none;
+}
+.information{
+    color: rgba(138, 138, 138, 1);
+    font-size: 13px
+    
+}
+.Recommaded-group .heading{
+    align-content: center;
+}
+.Recommaded-group .name {
+    display: flex;
+    align-items: center;
+}
+.Recommaded-group .name img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.follow_group{
+    display: flex;
+    justify-content: space-between;
+}
+.follow button{
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 3px;
+}
+.column2 a{
+    position: relative;
+    left: 70%;
+   
+    text-decoration: none;
+    color: rgba(47, 108, 229, 1);
+}
+
+@media screen and (max-width: 1060px)  {
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+.column2{
+    display: none;
+}
+.column1{
+   margin: 50px;}
+
+
+
+}
